@@ -4,9 +4,8 @@ def islower(c):
         return True
     else:
         return False
-
 def uppercase(str):
     for i in str:
         if islower(i):
-            print("{}".format(ord(i) - 32), end="")
+            print("{:c}".format(ord(i) - 32), end="")
     print("")
