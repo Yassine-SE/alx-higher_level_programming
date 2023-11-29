@@ -8,6 +8,5 @@ def uppercase(str):
     for i in str:
         if islower(i):
             i = chr(ord(i) - 32)
-        else:
-            print("{}".format(ord(i)), end="")
-        print()
+        print("{}".format(ord(i)), end="")
+    print("")
