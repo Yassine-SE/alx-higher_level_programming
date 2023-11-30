@@ -12,7 +12,7 @@ if __name__ == '__main__':
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
     a = args[1]
-    b = args[1]
+    b = args[3]
     op = args[2]
     if args[2] == '+':
         print("{:s} {:s} {:s} = {:d}".format(a, op, b, add(int(a), int(b))))
