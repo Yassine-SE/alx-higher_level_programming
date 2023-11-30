@@ -10,4 +10,4 @@ elif args_len == 2:
 elif args_len > 2:
     print("{:d} arguments.".format(args_len - 1))
     for i in range(1, args_len):
-        print("{:d}: {:s}".format((args_len - 1), args[i]))
+        print("{:d}: {:s}".format((i - 1), args[i]))
