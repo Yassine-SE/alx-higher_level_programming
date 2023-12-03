@@ -3,6 +3,9 @@ def print_matrix_integer(matrix=[[]]):
     if not matrix:
         return None
     for i in matrix:
-        for b in i:
-            print("{:d}".format(b), end=" ")
-        print("")
+        lst_len = len(i)
+        for b in range(lst_len):
+            if b == (lst_len - 1):
+                print("{:d}".format(i[b]))
+            else:
+                print("{:d}".format(i[b]), end=" ")
