@@ -2,7 +2,8 @@
 def uniq_add(my_list=[]):
     prv = 0
     result = 0
-    for i in my_list.sort():
+    my_list.sort()
+    for i in my_list:
         if i != prv:
             result += i
             prv = i
