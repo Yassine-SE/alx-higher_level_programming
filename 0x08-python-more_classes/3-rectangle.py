@@ -13,12 +13,12 @@ class Rectangle:
     def __str__(self):
         if self.__height == 0 or self.__width == 0:
             return ''
-        record_str = ''
+        r_str = ''
         for i in range(self.__height):
             for j in range(self.__width):
-                record_str += '#'
-            record_str += '\n'
-        return record_str[:-1]
+                r_str += '#'
+            r_str += '\n'
+        return r_str[:-1]
 
     @property
     def width(self):
