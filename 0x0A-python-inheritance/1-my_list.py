@@ -6,4 +6,5 @@
 class MyList(list):
     """class content"""
     def print_sorted(self):
+        """object content"""
         print(sorted(self))
