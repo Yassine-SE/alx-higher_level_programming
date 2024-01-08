@@ -3,5 +3,5 @@
 
 
 def lookup(obj):
-     """object"""
+    """object"""
     return (dir(obj))
